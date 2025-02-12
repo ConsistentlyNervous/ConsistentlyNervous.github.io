@@ -1,87 +1,8 @@
 
 <html>
     <head>
-        <style>
-            section {
-                color: purple;
-                display: flex;
-                justify-content: center;
-            }
-
-            .container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .item {
-                background-color: white;
-                width:80px;
-                height:80px;
-                gap: 10px;
-            }
-
-            .centerImage {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            div {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            body {
-                padding: 0;
-                margin: 0;
-                height: 100%;
-            }
-
-            .wrapper {
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .topBar {
-                background: lightgray;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .header {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .mainContent {
-                display: flex;
-                flex-flow: row wrap;
-            }
-            .mainContent > * {
-                flex: 1 100%;
-                margin: 20px;
-            }
-
-            .main {
-                background: lightpink;
-            }
-            
-            a.button {
-                width:80px;
-                height:80px;
-                background: lightgrey;
-                text-align: center;
-            }
-
-        </style>
-        <link rel="icon" type="image/png" href="/Resources/WebsiteIcon.png"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="https://consistentlynervous.github.io/Resources/WebsiteIcon.png"/>
     </head>
 
     <body style="background-color:#FFEEEF;">
@@ -89,18 +10,30 @@
             <img src="Resources/WebsiteLogo.png" alt="Logo">
         </div>
 
+        <div class = "header">
+            <div class = "headerButton">
+                <a class = "aboutButton" href="https://consistentlynervous.github.io/"><img src="Resources/AboutUnderlined.png" alt="About Button"></a>
+            </div>
+            <div class = "headerButton">
+                <a class = "projectsButton" href="https://consistentlynervous.github.io/About/"><img src="Resources/Projects.png" alt="Projects Button"></a>
+            </div>
+            <div class = "headerButton">
+                <a class = "resumeButton" href="https://consistentlynervous.github.io/About/"><img src="Resources/Resume.png" alt="Resume Button"></a>
+            </div>
+            <div class = "headerButton">
+                <a class = "contactButton" href="https://consistentlynervous.github.io/About/"><img src="Resources/Contact.png" alt="Contact Button"></a>
+            </div>
+        </div>
+
         <div class = "mainContent">
+            <div class = "leftItem">
+                <img src="Resources/AboutImage.jpg" width="500" height="500" alt="Logo">
+            </div>
             <div class = "main">
+                
                 <h1>This is a heading</h1>
                 <p>This is a paragraph.</p>
             </div>
-            <section>
-                <a href="https://consistentlynervous.github.io/test/" class="button">TestButton</a>
-                <!-- <a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a> -->
-                <div class = "item">a</div>
-                <div class = "item">b</div>
-                <div class = "item">c</div>
-            </section>
         </div>
     </body>
 </html>

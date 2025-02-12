@@ -1,0 +1,129 @@
+section {
+    color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: white;
+    width:80px;
+    height:80px;
+    gap: 10px;
+}
+
+.centerItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftItem {
+    display: flex;
+    justify-content: left;
+}
+
+.rightItem {
+    display: flex;
+    justify-content: right;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.topBar {
+    background: lightgray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.headerButton {
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    background:lightblue;
+    display: flex;
+    flex-flow: row wrap;
+}
+.mainContent > * {
+    margin: 50px;
+}
+
+.main {
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+a.aboutButton {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a.aboutButton:hover > img {
+    content: url("Resources/AboutUnderlined.png");
+}
+
+a.contactButton {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a.contactButton:hover > img {
+    content: url("Resources/ContactUnderlined.png");
+}
+
+a.projectsButton {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a.projectsButton:hover > img {
+    content: url("Resources/ProjectsUnderlined.png");
+}
+
+a.resumeButton {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a.resumeButton:hover > img {
+    content: url("Resources/ResumeUnderlined.png");
+}

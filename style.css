@@ -73,16 +73,14 @@ body {
 }
 
 .mainContent {
-    background:lightblue;
     display: flex;
     flex-flow: row wrap;
 }
 .mainContent > * {
-    margin: 50px;
+    margin: 20px;
 }
 
 .main {
-    background: lightgreen;
     display: flex;
     flex-direction: column;
 }

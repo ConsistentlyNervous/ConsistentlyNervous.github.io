@@ -91,6 +91,10 @@ body {
     row-gap: 20px;
 }
 
+a > img {
+    max-width:100%;
+}
+
 a.aboutButton {
     justify-content: center;
     align-items: center;

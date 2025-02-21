@@ -76,6 +76,7 @@ body {
     display: flex;
     flex-flow: row wrap;
 }
+
 .mainContent > * {
     margin: 20px;
 }
@@ -83,6 +84,11 @@ body {
 .main {
     display: flex;
     flex-direction: column;
+}
+
+.mainContent > * {
+    margin: 20px;
+    row-gap: 20px;
 }
 
 a.aboutButton {

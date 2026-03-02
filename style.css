@@ -112,7 +112,7 @@ p {
     display: flex;
     width: 9.5vw;
     height: 2vw;
-    background-image: url("../Resources/itchButton.png");
+    background-image: url("Resources/itchButton.png");
     background-position: center;
     background-size: 100% 100%;
     cursor: pointer;
@@ -122,7 +122,7 @@ p {
     display: flex;
     width: 14vw;
     height: 2vw;
-    background-image: url("../Resources/DownloadResume.png");
+    background-image: url("Resources/DownloadResume.png");
     background-position: center;
     background-size: 100% 100%;
     cursor: pointer;
@@ -132,54 +132,54 @@ p {
     display: flex;
     width: 10vw;
     height: 4vw;
-    background-image: url("../Resources/old/About.png");
+    background-image: url("Resources/old/About.png");
     background-position: center;
     background-size: 100% 100%;
     cursor: pointer;
 }
 
 .aboutButton:hover {
-    background-image: url("../Resources/old/AboutUnderlined.png");
+    background-image: url("Resources/old/AboutUnderlined.png");
 }
 
 .resumeButton {
     display: flex;
     width: 10vw;
     height: 4vw;
-    background-image: url("../Resources/old/Resume.png");
+    background-image: url("Resources/old/Resume.png");
     background-position: center;
     background-size: 100% 100%;
     cursor: pointer;
 }
 
 .resumeButton:hover {
-    background-image: url("../Resources/old/ResumeUnderlined.png");
+    background-image: url("Resources/old/ResumeUnderlined.png");
 }
 
 .projectsButton {
     display: flex;
     width: 10vw;
     height: 4vw;
-    background-image: url("../Resources/old/Projects.png");
+    background-image: url("Resources/old/Projects.png");
     background-position: center;
     background-size: 100% 100%;
     cursor: pointer;
 }
 
 .projectsButton:hover {
-    background-image: url("../Resources/old/ProjectsUnderlined.png");
+    background-image: url("Resources/old/ProjectsUnderlined.png");
 }
 
 .contactButton {
     display: flex;
     width: 10vw;
     height: 4vw;
-    background-image: url("../Resources/old/Contact.png");
+    background-image: url("Resources/old/Contact.png");
     background-position: center;
     background-size: 100% 100%;
     cursor: pointer;
 }
 
 .contactButton:hover {
-    background-image: url("../Resources/old/ContactUnderlined.png");
+    background-image: url("Resources/old/ContactUnderlined.png");
 }

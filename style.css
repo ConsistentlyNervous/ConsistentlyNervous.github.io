@@ -1,39 +1,10 @@
-section {
-    color: purple;
-    display: flex;
-    justify-content: center;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.item {
-    background-color: white;
-    width:80px;
-    height:80px;
-    gap: 10px;
-}
-
-.centerItem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.leftItem {
-    display: flex;
-    justify-content: left;
-}
-
-.rightItem {
-    display: flex;
-    justify-content: right;
-}
-
 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,98 +14,172 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
+    padding-right: 25%;
+    padding-left: 25%;
+    background-color:#FFEEEF;
+    padding-bottom: 5%;
 }
 
-.wrapper {
-    height: 100%;
+h1 {
+    font-family: "Suez One";
+    font-size: 3.5vw;
+    margin: 0;
+}
+
+p {
+    font-family: "Tiro Gurmukhi";
+    font-size: 1.1vw;
+    margin: 0;
+}
+
+.italic-text {
+    font-style: italic;
+    font-weight: 400i;
+}
+
+.suezOneFont {
+    font-family: "Suez One";
+}
+
+.tiroFont {
+    font-family: "Tiro Gurmukhi";
+}
+
+.underlinedItalicFont {
+    font-family: "Tiro Gurmukhi";
+    font-style: italic;
+    font-weight: 400i;
+    border-bottom: 1px solid black;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.verticalLayout {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    gap: 0.5vw;
 }
 
-.topBar {
-    background: lightgray;
-    height: 100%;
+.leftAlignedVertical {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: left;
+    align-items: self-start;
+    gap: 0.5vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-.header {
+.horizontalLayout {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: self-start;
+    gap: 2vw;
 }
 
-.headerButton {
-    justify-content: center;
-    align-items: center;
+.container {
+    position: relative; /* The container is positioned relative to its normal flow */
+    display: inline-block; /* Helps wrap the container around the image dimensions */
+    width: 70%
 }
 
-.mainContent {
-    display: flex;
-    flex-flow: row wrap;
+.container img {
+    display: block; /* Removes extra space issues */
+    width: 100%; /* Ensures the image fills the container */
+    height: auto;
 }
 
-.mainContent > * {
-    margin: 20px;
-}
-
-.main {
+.verticalTextOverlay {
+    width: 80%;
+    position: absolute; /* The text is positioned relative to its parent container (.container) */
+    top: 50%; /* Moves the top edge to the vertical midpoint of the container */
+    left: 50%; /* Moves the left edge to the horizontal midpoint of the container */
+    text-align: left;
+    transform: translate(-50%, -50%); /* Centers the text block itself precisely */
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    align-items: self-start;
+    gap: 1vw;
 }
 
-.main > img {
-    max-width:100%;
+/*Button Area*/
+.itchButton {
+    display: flex;
+    width: 9.5vw;
+    height: 2vw;
+    background-image: url("../Resources/itchButton.png");
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
 }
 
-.mainContent > * {
-    margin: 20px;
-    row-gap: 20px;
+.downloadButton {
+    display: flex;
+    width: 14vw;
+    height: 2vw;
+    background-image: url("../Resources/DownloadResume.png");
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
 }
 
-a > img {
-    max-width:100%;
+.aboutButton {
+    display: flex;
+    width: 10vw;
+    height: 4vw;
+    background-image: url("../Resources/old/About.png");
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
 }
 
-a.aboutButton {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.aboutButton:hover {
+    background-image: url("../Resources/old/AboutUnderlined.png");
 }
 
-a.aboutButton:hover > img {
-    content: url("Resources/AboutUnderlined.png");
+.resumeButton {
+    display: flex;
+    width: 10vw;
+    height: 4vw;
+    background-image: url("../Resources/old/Resume.png");
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
 }
 
-a.contactButton {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.resumeButton:hover {
+    background-image: url("../Resources/old/ResumeUnderlined.png");
 }
 
-a.contactButton:hover > img {
-    content: url("Resources/ContactUnderlined.png");
+.projectsButton {
+    display: flex;
+    width: 10vw;
+    height: 4vw;
+    background-image: url("../Resources/old/Projects.png");
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
 }
 
-a.projectsButton {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.projectsButton:hover {
+    background-image: url("../Resources/old/ProjectsUnderlined.png");
 }
 
-a.projectsButton:hover > img {
-    content: url("Resources/ProjectsUnderlined.png");
+.contactButton {
+    display: flex;
+    width: 10vw;
+    height: 4vw;
+    background-image: url("../Resources/old/Contact.png");
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
 }
 
-a.resumeButton {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-a.resumeButton:hover > img {
-    content: url("Resources/ResumeUnderlined.png");
+.contactButton:hover {
+    background-image: url("../Resources/old/ContactUnderlined.png");
 }

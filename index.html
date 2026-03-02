@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="referrer" content="strict-origin-when-cross-origin">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tiro+Gurmukhi:400,400italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Suez+One">
         <link rel="icon" type="image/png" href="https://consistentlynervous.github.io/Resources/WebsiteIcon.png"/>
     </head>
 
-    <body style="background-color:#FFEEEF">
-        <div class = "header">
-            <img src="Resources/WebsiteLogo.png" alt="Logo">
-        </div>
-
-        <div class = "header">
-            <div class = "headerButton">
-                <a class = "aboutButton" href="https://consistentlynervous.github.io/"><img src="Resources/AboutUnderlined.png" alt="About Button"></a>
-            </div>
-            <div class = "headerButton">
-                <a class = "projectsButton" href="https://consistentlynervous.github.io/Projects/"><img src="Resources/Projects.png" alt="Projects Button"></a>
-            </div>
-            <div class = "headerButton">
-                <a class = "resumeButton" href="https://drive.google.com/file/d/1ZbGxBS8rlkKmJReS_UuOZAYJb05pu2lK/view?usp=sharing"><img src="Resources/Resume.png" alt="Resume Button"></a>
-            </div>
-            <div class = "headerButton">
-                <a class = "contactButton" href="https://consistentlynervous.github.io/Contact/"><img src="Resources/Contact.png" alt="Contact Button"></a>
+    <header>
+        <div class="verticalLayout">
+            <img src="../Resources/WebsiteHeaderLogo.png" alt="Logo" width="95%">
+            <div class="horizontalLayout" style="gap:30px">
+                <a class="aboutButton" href="https://consistentlynervous.github.io/" style="background-image:url(../Resources/old/AboutUnderlined.png);" role="button"></a>
+                <a class="resumeButton" href="https://consistentlynervous.github.io/Resume/" role="button"></a>
+                <a class="projectsButton" href="https://consistentlynervous.github.io/Projects/" role="button"></a>
+                <a class="contactButton" href="https://consistentlynervous.github.io/Contact/" role="button"></a>
             </div>
         </div>
+    </header>
 
-        <div class = "mainContent">
-            <div class = "leftItem">
-                <img src="Resources/AboutImage.png" width="550" height="550" alt="Logo">
-            </div>
-            <div class = "main">
-                <img src="Resources/AboutText.png" alt="Logo">
+    <body>
+        <!--About-->
+        <div class="horizontalLayout">
+            <img src="../Resources/AboutImage.png" style="min-width: 30vw; margin-top: 5%;" alt="Picture of Lucy!">
+            <div class="verticalLayout" style="min-width: 35vw; margin-top: 10%;">
+                <p class="suezOneFont" style="font-size: 2.2vw; text-align: center;">Boston Based UI + UX Developer</p>
+                <p style="text-indent: 3%; font-size: 1.45vw; text-align: center; padding-top: 3%;">Hi! My name is Lucy and I'm a Technical UI Designer. I currently work for Autonodyne as a HMI Software Engineer in Unity - designing UI functionality and improving the UX across multiple applications.</p>
+                <p style="text-indent: 3%; font-size: 1.45vw; text-align: center; padding-top: 3%;">I love making sure users have an interesting and enjoyable experience when interacting with my systems/games. I'm always looking for new opportunities in the game UI space!</p>
             </div>
         </div>
     </body>

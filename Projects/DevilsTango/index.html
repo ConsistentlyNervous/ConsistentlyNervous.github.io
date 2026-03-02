@@ -1,38 +1,111 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../../style.css">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tiro+Gurmukhi:400,400italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Suez+One">
         <link rel="icon" type="image/png" href="https://consistentlynervous.github.io/Resources/WebsiteIcon.png"/>
     </head>
 
-    <body style="background-color:#FFEEEF">
-        <div class = "header">
-            <img src="../../Resources/WebsiteLogo.png" alt="Logo">
+    <header>
+        <div class="verticalLayout">
+            <img src="../Resources/WebsiteHeaderLogo.png" alt="Logo" width="95%">
+            <div class="horizontalLayout" style="gap:30px">
+                <a class="aboutButton" href="https://consistentlynervous.github.io/" role="button"></a>
+                <a class="resumeButton" href="https://consistentlynervous.github.io/Resume/" role="button"></a>
+                <a class="projectsButton" href="https://consistentlynervous.github.io/Projects/" style="background-image:url(../Resources/old/ProjectsUnderlined.png);" role="button"></a>
+                <a class="contactButton" href="https://consistentlynervous.github.io/Contact/" role="button"></a>
+            </div>
         </div>
+    </header>
 
-        <div class = "header">
-            <div class = "headerButton">
-                <a class = "aboutButton" href="https://consistentlynervous.github.io/"><img src="../../Resources/About.png" alt="About Button"></a>
+    <body>
+        <!--Outer vertical layout div-->
+        <div class="verticalLayout">
+            <h1>The Devil's Tango</h1>
+            <p style="padding-bottom: 1%;" class = "italic-text">Dance your way out of Hell.</p>
+            <href class="itchButton" href="https://consistently-nervous.itch.io/the-devils-tango" alt="Link to Itch Page"></href>
+            <img style="padding-top: 2%;" src="../Resources/DevilsTango/Devil'sTango.gif" alt="Card Mechanic Display" width="75%">
+            <p style="padding-top: 3%;"><span class="suezOneFont">The Devil's Tango is a rhythm based visual novel game. </span>
+                Orion was once a famous dancer and choreographer until he tragically slipped on a banana peel and died. 
+                Now in Hell he meets Satan, a disgruntled past fan. In order to escape, Orion must prove that he still has the love of dance in his heart!</p>
+
+
+            <!--Project Details-->
+            <div class="horizontalLayout">
+                <div class="leftAlignedVertical" style="max-width: 100%; min-width: 40%;">
+                    <p class="underlinedItalicFont">My Contributions</p>
+                    <p style="padding-top: 1%;"><span class="suezOneFont">UX Designer: </span>Approached and worked through layout challenges within this game's specifications through multiple iterations and user tests.</p>
+                    <p><span class="suezOneFont">UI Designer: </span>Created UI mockup sketches to test layouts before later fully rendering the final elements.</p>
+                    <p><span class="suezOneFont">UI Programmer: </span>Created base level UI systems, including: dialogue, menus, and rhythm game layout.</p>
+                </div>
+                <div class="leftAlignedVertical" style="max-width: 100%; min-width: 40%;">
+                    <p class="underlinedItalicFont">Project Details</p>
+                    <p style="padding-top: 1%;"><span class="suezOneFont">Platform: </span>Desktop (Itch.io)</p>
+                    <p><span class="suezOneFont">Team Size: </span>4</p>
+                    <p><span class="suezOneFont">Project Length: </span>4 months, January 2024 - April 2024</p>
+                    <p><span class="suezOneFont">Tools: </span>Unity, Trello, Procreate, Photoshop</p>
+                </div>
             </div>
-            <div class = "headerButton">
-                <a class = "projectsButton" href="https://consistentlynervous.github.io/Projects/"><img src="../../Resources/ProjectsUnderlined.png" alt="Projects Button"></a>
+
+            <a href="https://youtu.be/Tr7I21pFJNY" alt="Link to Full Playthrough"> <!--Update Video Link-->
+                <div class="verticalLayout">
+                    <img width="75%" src="../Resources/DevilsTango/devilsTangoFullPlaythrough.png">
+                </div>
+            </a>
+            <p class="italic-text">Click here to watch a full playthough!</p>
+
+            <!--Case Study-->
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p class="underlinedItalicFont" style="font-size: 1.5vw;">Focusing On Multiple Elements at Once - A Case Study</p>
+                <p style="padding-top: 1%;">Once our team finished our first playtest we realized we desperately needed to perform a major design overhaul. 
+                    Users were almost unable to play our game because we were <span class="suezOneFont">their attention and forcing them to choose only one mechanic to pay attention to. </span>
+                    This was incredibly frustrating for players.</p>
             </div>
-            <div class = "headerButton">
-                <a class = "resumeButton" href="https://drive.google.com/file/d/1ZbGxBS8rlkKmJReS_UuOZAYJb05pu2lK/view?usp=sharing"><img src="../../Resources/Resume.png" alt="Resume Button"></a>
+        
+            <img src="../Resources/DevilsTango/initialGameplayLayout.png" alt="Initial Layout" width="75%">
+            <p class="italic-text">Initial Layout - <span class="italic-text" style="font-size: 0.9vw;">Split Attention</span></p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>Since we needed a completely new layout, I got to work mocking up a few options, creating pros and cons lists, and testing with users to get initial feedback. So that we could move forward with implementation as soon as possible.</p>
             </div>
-            <div class = "headerButton">
-                <a class = "contactButton" href="https://consistentlynervous.github.io/Contact/"><img src="../../Resources/Contact.png" alt="Contact Button"></a>
+            
+            <img style="padding-top: 2%;" src="../Resources/DevilsTango/layoutOption1.png" alt="Layout Option 1" width="75%">
+            <p class="italic-text">Mockup 1 - <span class="italic-text" style="font-size: 0.9vw;">Screen split by player</span></p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>The first option I came up with, places the player at the center of the screen, allowing the player to see the bananas in their peripheral. 
+                     rhythm section is split by the player and bananas which keeps the majority of the <span class="suezOneFont">player's attention to the top 1/3 of the screen.</span> 
+                     However, since we're splitting a mechanic this could cause issues with players <span class="suezOneFont">knowing what buttons to press</span> or just making the experience <span class="suezOneFont">feel more disjointed</span> than it has to.</p>
             </div>
-        </div>
-        <div class = "mainContent">
-            <div class = "main">
-                <img src="../../Resources/DevilsTango/DTTopText.png" alt="The Devil's Tango, Dance your way out of Hell">
-                <a href="https://consistently-nervous.itch.io/the-devils-tango/"><img src="../../Resources/ProjectItchButton.png" alt="Link to Itch Page"></a>
-                <img src="../../Resources/DevilsTango/DTTopDescription.png">
-                <img src="../../Resources/DevilsTango/DTDetails.png">
-                <img src="../../Resources/DevilsTango/DTScreenshots.png">
-                <img src="../../Resources/DevilsTango/DTDesignIterations.png">
-                <img src="../../Resources/DevilsTango/DTRetro.png">
+
+            <img style="padding-top: 2%;" src="../Resources/DevilsTango/layoutOption2.png" alt="Layout Option 2" width="75%">
+            <p class="italic-text">Mockup 2 - <span class="italic-text" style="font-size: 0.9vw;">Rhythm at the top</span></p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>The second option I tried out put the rhythm mechanic along the top of the screen, where the bananas will initially spawn in. 
+                    This allows the player <span class="suezOneFont">more time to plan</span> for the bananas while focusing on the more strenuous rhythm mechanic. 
+                    However, it also makes the <span class="suezOneFont">rhythm mechanic feel completely separate from the player character.</span> And since this action corresponds to the player's movement we didn't love that.</p>
+            </div>
+            
+            <img style="padding-top: 2%;" src="../Resources/DevilsTango/layoutOption3.png" alt="Layout Option 3" width="75%">
+            <p class="italic-text">Mockup 3 - <span class="italic-text" style="font-size: 0.9vw;">Rhythm at the bottom w/ player above</span></p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>This is the final iteration I came up with, and the one we ended up moving forward with. 
+                    It places the rhythm mechanic at the players feet, completely centering view on the player character. 
+                    This allows players to <span class="suezOneFont">see the bananas in their peripheral</span> and <span class="suezOneFont">understand the connection between the rhythm notes and the character's movements.</span></p>
+            </div>
+
+            <img style="padding-top: 2%;" src="../Resources/DevilsTango/DevilsTangoDancing.gif" alt="Final Layout" width="75%">
+            <p class="italic-text">Final Layout - <span class="italic-text" style="font-size: 0.9vw;">Clear connection between notes and player character</span></p>
+
+            <!--Retrospective-->
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p class="underlinedItalicFont" style="font-size: 1.5vw;">Retrospective</p>
+                <p style="padding-top: 1%;">While I'm really happy with how this project turned out, I do wish I knew more about research techniques and heuristics. 
+                    I think these would have helped me a lot as I conducted this case study so I could have tested more thoroughly with users and better understood the results.</p>
             </div>
         </div>
     </body>

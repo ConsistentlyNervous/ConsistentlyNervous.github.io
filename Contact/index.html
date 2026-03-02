@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../style.css">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tiro+Gurmukhi:400,400italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Suez+One">
         <link rel="icon" type="image/png" href="https://consistentlynervous.github.io/Resources/WebsiteIcon.png"/>
     </head>
 
-    <body style="background-color:#FFEEEF">
-        <div class = "header">
-            <img src="../Resources/WebsiteLogo.png" alt="Logo">
+    <header>
+        <div class="verticalLayout">
+            <img src="../Resources/WebsiteHeaderLogo.png" alt="Logo" width="95%">
+            <div class="horizontalLayout" style="gap:30px">
+                <a class="aboutButton" href="https://consistentlynervous.github.io/" role="button"></a>
+                <a class="resumeButton" href="https://consistentlynervous.github.io/Resume/" role="button"></a>
+                <a class="projectsButton" href="https://consistentlynervous.github.io/Projects/" role="button"></a>
+                <a class="contactButton" href="https://consistentlynervous.github.io/Contact/" style="background-image:url(../Resources/old/ContactUnderlined.png);" role="button"></a>
+            </div>
         </div>
+    </header>
 
-        <div class = "header">
-            <div class = "headerButton">
-                <a class = "aboutButton" href="https://consistentlynervous.github.io/"><img src="../Resources/About.png" alt="About Button"></a>
+    <body>
+        <!--Contact-->
+        <div class="verticalLayout">
+            <div class="container">
+                <img src="../Resources/ContactOutline.png" alt="Background for contact information">
+                <div class="verticalTextOverlay">
+                    <p class="italic-text" style="font-size: 1.5vw;"><span class="suezOneFont">Mobile: </span>203-945-6125</p>
+                    <p class="italic-text" style="font-size: 1.5vw;"><span class="suezOneFont">Email: </span>lucette.gold@gmail.com</p>
+                    <p class="italic-text" style="font-size: 1.5vw;"><span class="suezOneFont">LinkedIn: </span>linkedin.com/in/lucette-gold</p>
+                </div>
             </div>
-            <div class = "headerButton">
-                <a class = "projectsButton" href="https://consistentlynervous.github.io/Projects/"><img src="../Resources/Projects.png" alt="Projects Button"></a>
-            </div>
-            <div class = "headerButton">
-                <a class = "resumeButton" href="https://drive.google.com/file/d/1ZbGxBS8rlkKmJReS_UuOZAYJb05pu2lK/view?usp=sharing"><img src="../Resources/Resume.png" alt="Resume Button"></a>
-            </div>
-            <div class = "headerButton">
-                <a class = "contactButton" href="https://consistentlynervous.github.io/Contact/"><img src="../Resources/ContactUnderlined.png" alt="Contact Button"></a>
-            </div>
-        </div>
-
-        <div class = "mainContent">
-            <a href="https://lucy-gold.carrd.co/"><img src="../Resources/ContactInfo.png" alt="Link to Contact Information"></a>
-        </div>
     </body>
 </html>

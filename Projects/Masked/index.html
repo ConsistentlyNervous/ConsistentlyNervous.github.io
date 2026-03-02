@@ -1,40 +1,133 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../../style.css">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tiro+Gurmukhi:400,400italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Suez+One">
         <link rel="icon" type="image/png" href="https://consistentlynervous.github.io/Resources/WebsiteIcon.png"/>
     </head>
 
-    <body style="background-color:#FFEEEF">
-        <div class = "header">
-            <img src="../../Resources/WebsiteLogo.png" alt="Logo">
+    <header>
+        <div class="verticalLayout">
+            <img src="../Resources/WebsiteHeaderLogo.png" alt="Logo" width="95%">
+            <div class="horizontalLayout" style="gap:30px">
+                <a class="aboutButton" href="https://consistentlynervous.github.io/" role="button"></a>
+                <a class="resumeButton" href="https://consistentlynervous.github.io/Resume/" role="button"></a>
+                <a class="projectsButton" href="https://consistentlynervous.github.io/Projects/" style="background-image:url(../Resources/old/ProjectsUnderlined.png);" role="button"></a>
+                <a class="contactButton" href="https://consistentlynervous.github.io/Contact/" role="button"></a>
+            </div>
         </div>
+    </header>
 
-        <div class = "header">
-            <div class = "headerButton">
-                <a class = "aboutButton" href="https://consistentlynervous.github.io/"><img src="../../Resources/About.png" alt="About Button"></a>
+    <body>
+        <!--Outer vertical layout div-->
+        <div class="verticalLayout">
+            <h1>Masked</h1>
+            <p style="padding-bottom: 1%;" class = "italic-text">Welcome to the Venetian Carnival!</p>
+            <href class="itchButton" href="https://consistently-nervous.itch.io/masked" alt="Link to Itch Page"></href>
+            <img style="padding-top: 2%;" src="../Resources/Masked/MaskedGif.gif" alt="Card Mechanic Display" width="75%">
+            <p style="padding-top: 3%;"><span class="suezOneFont">Masked is a detective visual novel game set during a traditional Venetian Carnival. </span>
+                The Great Noble Bauta has been murdered and you've been contracted to find his killer! 
+                The suspects are shallow and absolutely judge a book by its cover. 
+                Use a selection of masks to appease them and gather all the information you can before making your final verdict.</p>
+
+
+            <!--Project Details-->
+            <div class="horizontalLayout">
+                <div class="leftAlignedVertical" style="max-width: 100%; min-width: 40%;">
+                    <p class="underlinedItalicFont">My Contributions</p>
+                    <p style="padding-top: 1%;"><span class="suezOneFont">UI Designer: </span>Created and polished the game's UI from original sketches to wireframes to final stages. Worked through design challenges such as field of view, player frustration, and style vs readability.</p>
+                    <p><span class="suezOneFont">UI Programmer: </span>Implemented the UI designs in Unity using C# and native layout elements.</p>
+                    <p><span class="suezOneFont">UX Designer: </span>Ran playtests and collected feedback on UI elements. Worked through design challenges such as field of view, player frustration, and style vs readability.</p>
+                </div>
+                <div class="leftAlignedVertical" style="max-width: 100%; min-width: 40%;">
+                    <p class="underlinedItalicFont">Project Details</p>
+                    <p style="padding-top: 1%;"><span class="suezOneFont">Platform: </span>Desktop (Itch.io)</p>
+                    <p><span class="suezOneFont">Team Size: </span>5</p>
+                    <p><span class="suezOneFont">Project Length: </span>4 months, September 2024 - December 2024</p>
+                    <p><span class="suezOneFont">Tools: </span>Unity, Figma, Trello, Procreate, Photoshop</p>
+                </div>
             </div>
-            <div class = "headerButton">
-                <a class = "projectsButton" href="https://consistentlynervous.github.io/Projects/"><img src="../../Resources/ProjectsUnderlined.png" alt="Projects Button"></a>
+
+            <a href="https://youtu.be/Tr7I21pFJNY" alt="Link to Full Playthrough"> <!--Update Video Link-->
+                <div class="verticalLayout">
+                    <img width="75%" src="../Resources/Masked/MaskedFullPlaythroughImage.png">
+                </div>
+            </a>
+            <p class="italic-text">Click here to watch a full playthough!</p>
+
+            <!--Designing Process - Sketches-->
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p class="underlinedItalicFont" style="font-size: 1.5vw;">My Design Process - Early Sketches</p>
+                <p style="padding-top: 1%;">For this project, I was really interested in how visually obstructing information from the player can create curiosity and interest to play the same path a different way, in order to fill in the blanks. 
+                    I got really stuck on the idea of masks and using an “equipped mask” to portray a specific path the character will take.</p>
             </div>
-            <div class = "headerButton">
-                <a class = "resumeButton" href="https://drive.google.com/file/d/1ZbGxBS8rlkKmJReS_UuOZAYJb05pu2lK/view?usp=sharing"><img src="../../Resources/Resume.png" alt="Resume Button"></a>
+        
+            <img src="../Resources/Masked/initialSketch.png" alt="First Sketch" width="75%">
+            <p class="italic-text">Initial Sketch</p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>After this initial mockup, I wanted to play with different ways the <span class="suezOneFont">information could be visually hidden to the player and the obtrusiveness</span> of it all. With this I wanted to start taking into account balancing curiosity vs frustration.</p>
             </div>
-            <div class = "headerButton">
-                <a class = "contactButton" href="https://consistentlynervous.github.io/Contact/"><img src="../../Resources/Contact.png" alt="Contact Button"></a>
+            
+            <img style="padding-top: 2%;" src="../Resources/Masked/Sketch2.png" alt="Sketch Options" width="75%">
+            <p class="italic-text">Top - <span class="italic-text" style="font-size: 0.9vw;">Blocked dialogue paths</span></p>
+            <p class="italic-text">Bottom - <span class="italic-text" style="font-size: 0.9vw;">Blocked question buttons</span></p>
+
+            <img style="padding-top: 2%;" src="../Resources/Masked/Sketch3.png" alt="Sketch Options" width="75%">
+            <p class="italic-text">Top - <span class="italic-text" style="font-size: 0.9vw;">Hidden info on personal cards, used at a later stage</span></p>
+            <p class="italic-text">Bottom - <span class="italic-text" style="font-size: 0.9vw;">Hidden information in a personal notebook</span></p>
+            
+            <img style="padding-top: 2%;" src="../Resources/Masked/Sketch4.png" alt="Sketch Options" width="75%">
+            <p class="italic-text">Top - <span class="italic-text" style="font-size: 0.9vw;">NPC dialogue blocked out</span></p>
+            <p class="italic-text">Bottom - <span class="italic-text" style="font-size: 0.9vw;">NPC visuals and dialogue blocked out</span></p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>With these mockups in front of me I was able to start looking more at how I can <span class="suezOneFont">balance curiosity and frustration.</span> 
+                    I wasn't the biggest fan of how gameplay would feel for the later 4, since they really amp up the amount of <span class="suezOneFont">cognitive load</span> needed to interact with the system. 
+                    Forcing the player to <span class="suezOneFont">remember too much information</span> as they flip through screens just feels a bit cruel.</p>
+                <p style="padding-top: 1%;">With the first two the cognitive load isn't as arduous intrinsically. 
+                    Of course they require the player to remember information but it's <span class="suezOneFont">complete information, which makes it so much easier on the player.</span> 
+                    This load could even be lightened further by making the really important information closer to the end of the interaction so its fresher.</p>
+                <p style="padding-top: 1%;">I chose to move forward with my second design, that hides dialogue choice buttons based on what mask the player has on. 
+                    I felt that this would be the most realistic for our team to realistically develop and polish over a month and would be more of a design challenge for me. </p>
             </div>
-        </div>
-        <div class = "mainContent">
-            <div class = "main">
-                <img src="../../Resources/Masked/MTopText.png">
-                <a href="https://consistently-nervous.itch.io/masked/"><img src="../../Resources/ProjectItchButton.png" alt="Link to Itch Page"></a>
-                <img src="../../Resources/Masked/MTopDescription.png">
-                <img src="../../Resources/Masked/MDetails.png">
-                <img src="../../Resources/Masked/MScreenshots.png">
-                <img src="../../Resources/Masked/MInitialDesign.png">
-                <img src="../../Resources/Masked/MIterations.png">
-                <img src="../../Resources/Masked/MHistory.png">
-                <img src="../../Resources/Masked/MRetro.png">
+
+            <!--Design Challenges-->
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p class="underlinedItalicFont" style="font-size: 1.5vw;">Design Challenges</p>
+                <p style="padding-top: 1%;">There were many design challenges faced during the time I spent working on this project. However, I want to focus on just 2 of those</p>
+                <p style="text-indent: 3%; width:80%;"><span class="suezOneFont">1. Action Button Naming</span></p>
+                <p style="text-indent: 3%; width:80%;"><span class="suezOneFont">2. Mask Overlay Sizing</span></p>
+                <p style="padding-top: 1%;">Starting with the action buttons, I wanted the interface to feature <span class="suezOneFont">3 consistent buttons with both iconography and text</span> to more wholly depict the dialogue path. 
+                    I felt the buttons needed to be consistent so that players could easily know what was available/hidden from them, so they can better plan their next mask choice.</p>
+            </div>
+
+            <img style="padding-top: 2%;" src="../Resources/Masked/ButtonUI1.png" alt="Original Button Names" width="75%">
+            <p class="italic-text">First Iteration Button Names - <span class="italic-text" style="font-size: 0.9vw;">Question, Victim, and Motive</span></p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>Through some initial playtests with these button names revealed that <span class="suezOneFont">“Question” was incredibly confusing to players</span> needed to be changed. 
+                    I touched base with our narrative member to explore what tone of dialogue they wrote for this button and brainstormed some ideas with them. 
+                    We landed on <span class="suezOneFont">“Introduction” with a new handshake icon</span>, and this change was received really well by players!</p>
+            </div>
+
+            <img style="padding-top: 2%;" src="../Resources/Masked/ButtonUIFinal.png" alt="Updated Button Names" width="75%">
+            <p class="italic-text">Final Iteration Button Names - <span class="italic-text" style="font-size: 0.9vw;">Introduction, Victim, and Motive</span></p>
+
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p>The next hurdle this project had to face was the <span class="suezOneFont">mask overlay and making sure it wasn't too distracting or taking up too much screen real estate.</span> 
+                    Luckily since this game is largely text based we had more wiggle room than a movement/speed based game. 
+                    One thing that was really helpful was putting <span class="suezOneFont">UI over top of the mask outline,</span> this helped to keep the important information visible to players and separate elements into “what the player character sees” and “what options I have as a player.”</p>
+            </div>
+
+            <!--Retrospective-->
+            <div class="leftAlignedVertical" style="max-width: 100%;">
+                <p class="underlinedItalicFont" style="font-size: 1.5vw;">Retrospective</p>
+                <p style="padding-top: 1%;">The only thing I would change about this final design is the color scheme of the buttons. 
+                    We sadly didn't have time to make new art to better match the color scheme our artist decided to go with for the characters. 
+                    But other than that this was an incredibly fun project to work on and I'm really glad I got to work through a lot of these design challenges with a great team.</p>
             </div>
         </div>
     </body>

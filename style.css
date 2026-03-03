@@ -24,17 +24,20 @@ h1 {
     font-family: "Suez One";
     font-size: 80%;
     margin: 0;
+    line-height: 1.2;
 }
 
 p {
     font-family: "Tiro Gurmukhi";
     font-size: 40%;
     margin: 0;
+    line-height: 1.2;
 }
 
 .italic-text {
     font-style: italic;
     font-weight: 400i;
+    line-height: 1.2;
 }
 
 .suezOneFont {
@@ -53,6 +56,7 @@ p {
     font-size: 40%;
     padding-right: 1vw;
     padding-left: 1vw;
+    line-height: 1.2;
 }
 
 .verticalLayout {
@@ -204,12 +208,14 @@ p {
         font-family: "Suez One";
         font-size: 80%;
         margin: 0;
+        line-height: 1.2;
     }
 
     p {
         font-family: "Tiro Gurmukhi";
         font-size: 40%;
         margin: 0;
+        line-height: 1.2;
     }
 
     .underlinedItalicFont {
@@ -220,6 +226,7 @@ p {
         font-size: 50%;
         padding-right: 1vw;
         padding-left: 1vw;
+        line-height: 1.2;
     }
 
     .verticalTextOverlay {

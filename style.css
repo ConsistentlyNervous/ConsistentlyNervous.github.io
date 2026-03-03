@@ -48,6 +48,8 @@ span {
     font-style: italic;
     font-weight: 400i;
     line-height: 1.2;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .suezOneFont {

@@ -41,7 +41,7 @@ span {
     width: 100%;
     padding-left: 1%;
     padding-right: 1%;
-
+    overflow-x: hidden;
 }
 
 .italic-text {

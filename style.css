@@ -5,6 +5,8 @@ div {
 }
 
 header {
+    padding-right: 10%;
+    padding-left: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,6 +207,11 @@ span {
 }
 
 @media screen and (min-width: 768px) {
+    header {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+    
     body {
         padding: 0;
         margin: 0;

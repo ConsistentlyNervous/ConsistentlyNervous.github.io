@@ -42,6 +42,7 @@ p {
 
 .suezOneFont {
     font-family: "Suez One";
+    display: inline;
 }
 
 .tiroFont {

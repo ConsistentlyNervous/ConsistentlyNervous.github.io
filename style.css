@@ -36,6 +36,7 @@ p {
 
 span {
     padding-left: 0.5%;
+    display: inline;
 }
 
 .italic-text {
@@ -225,6 +226,8 @@ span {
 
     span {
         padding-left: 0;
+        display: inline;
+
     }
 
     .underlinedItalicFont {
